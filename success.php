@@ -3,7 +3,7 @@
     require_once 'includes/header.php'; 
     //require_once 'includes/auth_check.php';
     require_once 'db/conn.php';
-    //require 'sendemail.php';
+   
     if(isset($_POST["submit"])){
         //extract values from the $_POST array
         $fname = $_POST['firstname'];
@@ -16,8 +16,7 @@
         $specialtyName = $crud->getSpecialtyById($specialty);
         
         if($isSuccess){
-            //SendEmail::SendMail($email, 'Welcome to IT Conference 2019', 'You have successfully registerted for this year\'s IT Conference');
-           echo  'Welcome to IT Conference 2019',    'You have successfully registerted for this year\'s IT Conference';
+          
             include 'includes/successmessage.php';
         }
         else{
