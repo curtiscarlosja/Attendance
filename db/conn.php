@@ -1,6 +1,7 @@
 <?php 
   
     // Development Connection
+    
    // $host = '127.0.0.1';
     //$db = 'attendance';
     //$user = 'root';
@@ -14,8 +15,6 @@
     $user = 'rPVqx902Nv';
     $pass = 'tASGb4B9tQ';
     $charset = 'utf8mb4';
-    
-    
     
 
     $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
