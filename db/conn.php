@@ -11,9 +11,9 @@
     //remote connection
     
     $host = 'remotemysql.com';
-    $db = 'rPVqx902Nv';
-    $user = 'rPVqx902Nv';
-    $pass = 'tASGb4B9tQ';
+    $db = 'LTymDkcjNW';
+    $user = 'LTymDkcjNW';
+    $pass = 'OWMKpbpq8R';
     $charset = 'utf8mb4';
     
 
