@@ -11,16 +11,16 @@
     //remote connection
     
     $host = 'remotemysql.com';
-    $db = 'LTymDkcjNW';
-    $user = 'LTymDkcjNW';
-    $pass = 'OWMKpbpq8R';
+    $db = 'NuV2KSxhOo';
+    $user = 'NuV2KSxhOo';
+    $pass = '5D01rN25jf';
     $charset = 'utf8mb4';
     
 
     $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
     try{
         $pdo = new PDO($dsn, $user, $pass);
-        'echo Hello you are connected';
+        'echo Hello 1500175993 you are connected';
        $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     } catch(PDOException $e) {
    throw new PDOException($e->getMessage());
